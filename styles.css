@@ -1,7 +1,11 @@
 h1, h2, p {
     text-align: center;
-    color: white;
+    color: rgb(223, 215, 205);
   }
+
+body {
+  background-image: url(https://imgur.com/a/CzZDciA)
+}
 
 #maintxt {
     width: 80%;
