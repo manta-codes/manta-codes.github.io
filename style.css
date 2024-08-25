@@ -1,0 +1,11 @@
+h1, h2, p {
+    text-align: center;
+    color: white;
+  }
+
+#maintxt {
+    width: 80%;
+    background-color: rgb(6, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+  }
