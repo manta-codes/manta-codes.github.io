@@ -3,6 +3,10 @@ h1, h2, p {
     color: white;
   }
 
+#entire_page {
+  background-color: rgb(37, 37, 37);
+}
+
 #maintxt {
     width: 80%;
     background-color: rgb(6, 54, 54);
