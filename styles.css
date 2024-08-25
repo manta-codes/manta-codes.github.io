@@ -4,7 +4,8 @@ h1, h2, p {
   }
 
 body {
-  background-image: url(https://imgur.com/FSPz0rO.jpeg)
+  background-image: url(https://imgur.com/YlpfDiu);
+  background-size: contain;
 }
 
 #maintxt {
