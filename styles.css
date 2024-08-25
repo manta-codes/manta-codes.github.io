@@ -4,11 +4,12 @@ h1, h2, p {
   }
 
 body {
-  background-image: url(https://imgur.com/YlpfDiu);
-  background-size: contain;
+  background-image: url(https://imgur.com/YlpfDiu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#maintxt {
+.maintxt {
     width: 80%;
     background-color: rgb(6, 54, 54);
     margin-left: auto;
