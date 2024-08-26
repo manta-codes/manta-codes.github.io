@@ -50,10 +50,6 @@ footer {
     font-family: sans-serif;
     text-align: center;
   }
-  
-footer hr {
-  max-width: 600px;
-}
 
 .footertxt {
   width: 80%;
@@ -73,9 +69,9 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(15, 82, 82);
+  color: rgb(103, 182, 182);
 }
 
 a:active {
-  color: rgb(15, 82, 82);
+  color: rgb(103, 182, 182);
 }
