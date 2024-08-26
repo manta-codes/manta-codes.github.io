@@ -5,6 +5,7 @@ h1
     color: rgb(223, 215, 205);
     margin-top: 5px;
     margin-bottom: -5px;
+    font-size: 35px;
   }
   
 h2
@@ -42,4 +43,30 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  }
+
+footer {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+footer hr {
+  max-width: 600px;
+}
+  
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(15, 82, 82);
+}
+
+a:active {
+  color: rgb(15, 82, 82);
 }
