@@ -54,6 +54,15 @@ footer {
 footer hr {
   max-width: 600px;
 }
+
+.footertxt {
+  width: 80%;
+  background-color: rgb(28, 104, 104);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 600px;
+}
   
 a {
   color: black;
