@@ -18,6 +18,8 @@ p {
     text-align: center;
     font-family: sans-serif;
     color: rgb(223, 215, 205);
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
 body {
@@ -26,18 +28,18 @@ body {
 }
 
 .maintxt {
-  width: 80%;
-  background-color: rgb(6, 54, 54);
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 600px;
-}
+    width: 80%;
+    background-color: rgb(6, 54, 54);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 600px;
+  }
 
 .maintxt img {
-display: block;
-max-width: 100px;
-margin-left: auto;
-margin-right: auto;
-margin-top: -20px;
+  display: block;
+  max-width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
 }
