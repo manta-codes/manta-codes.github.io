@@ -27,18 +27,18 @@ body {
 }
 
 .maintxt {
-    width: 80%;
-    background-color: rgb(6, 54, 54);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 600px;
-  }
-
-.maintxt img {
-  display: block;
-  max-width: 20%;
+  width: 80%;
+  background-color: rgb(6, 54, 54);
   margin-left: auto;
   margin-right: auto;
-  margin-top: -20px;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.maintxt img {
+display: block;
+max-width: 100px;
+margin-left: auto;
+margin-right: auto;
+margin-top: -20px;
 }
