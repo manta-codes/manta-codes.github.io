@@ -28,6 +28,11 @@ body {
   background-size: cover;
 }
 
+h1 img {
+  max-width: 35px;
+  margin-bottom: -6px
+}
+
 .maintxt {
     width: 80%;
     background-color: rgb(6, 54, 54);
