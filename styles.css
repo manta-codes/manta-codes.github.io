@@ -1,82 +1,94 @@
-h1
-{
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(223, 215, 205);
-    margin-top: 5px;
-    margin-bottom: -5px;
-    font-size: 35px;
-  }
-  
-h2
-{
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(223, 215, 205);
-  }
-
-p {
-    text-align: center;
-    font-family: sans-serif;
-    color: rgb(223, 215, 205);
-    padding-left: 15%;
-    padding-right: 15%;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  background-image: url(https://imgur.com/VfbkD6t.jpg);
-  background-size: cover;
-}
-
-h1 img {
-  max-width: 35px;
-  margin-bottom: -6px
-}
-
-.maintxt {
-    width: 80%;
-    background-color: rgb(6, 54, 54);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 20px;
-    max-width: 600px;
-  }
-  
-.pikachu {
-  display: block;
-  max-width: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  }
-
-footer {
-    font-size: 14px;
-    font-family: sans-serif;
-    text-align: center;
-  }
-
-.footertxt {
-  width: 80%;
-  background-color: rgb(28, 104, 104);
-  margin-left: auto;
-  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0b5345;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
   padding: 20px;
-  max-width: 600px;
-}
-  
-a {
-  color: black;
 }
 
-a:visited {
-  color: black;
+.container {
+  background-color: #cee5e9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
-a:hover {
-  color: rgb(179, 228, 228);
+header h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-a:active {
-  color: rgb(179, 228, 228);
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.bio h2 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.bio p {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.link-btn {
+  background-color: #0b5345;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.link-btn:hover {
+  background-color: #0b5345;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .bio-card {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .links {
+      flex-direction: column;
+  }
+
+  .link-btn {
+      width: 100%;
+      padding: 12px;
+  }
 }
