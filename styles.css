@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #0b5345;
+  background-color: #125f59;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -65,7 +65,7 @@ header h1 {
 }
 
 .link-btn {
-  background-color: #0b5345;
+  background-color: #3f2685;
   color: white;
   text-decoration: none;
   padding: 10px 20px;
@@ -74,7 +74,7 @@ header h1 {
 }
 
 .link-btn:hover {
-  background-color: #0b5345;
+  background-color: #52379c;
 }
 
 /* Responsive Design */
