@@ -11,6 +11,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   gap: 20px;
+  justify-content: space-around;
   align-items: center;
   height: 100vh;
   padding: 20px;
@@ -31,7 +32,7 @@ header h1 {
   margin-bottom: 20px;
 }
 
-.card {
+.bio-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,13 +47,13 @@ header h1 {
   margin-bottom: 15px;
 }
 
-.info h2 {
+.bio h2 {
   font-size: 22px;
   color: #333;
   margin-bottom: 10px;
 }
 
-.info p {
+.bio p {
   font-size: 16px;
   line-height: 1.25;
 }
@@ -78,7 +79,7 @@ header h1 {
 
 /* Responsive Design */
 @media (max-width: 500px) {
-  .card {
+  .bio-card {
       flex-direction: column;
       text-align: center;
   }
