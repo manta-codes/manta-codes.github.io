@@ -8,7 +8,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: #125f59;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   flex-direction: column;
   gap: 20px;
   justify-content: space-around;

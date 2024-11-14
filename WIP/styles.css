@@ -1,0 +1,26 @@
+@import url("utility.css");
+
+.flex {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .flex__item {
+    background-color: rgba(var(--flex-color), 0.25);
+    border: 1px solid rgba(var(--flex-color), 1);
+    padding: 2em;
+    border-radius: 1rem;
+
+  }
+  
+  .grid {
+    display: grid;
+    gap: 1rem;
+  }
+  
+  .grid__item {
+    background-color: rgba(var(--grid-color), 0.25);
+    border: 1px solid rgba(var(--grid-color), 1);
+    border-radius: 1rem;
+    padding: 2em;
+}

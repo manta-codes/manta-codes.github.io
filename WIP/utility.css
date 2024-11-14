@@ -1,0 +1,53 @@
+/* CSS Variables */
+
+:root {
+
+    /*
+    --red:        239, 071, 111;  
+    --yellow:     255, 209, 102;  
+    --blue:       038, 084, 124;  
+    */
+    
+    --flex-color:   239, 071, 111;
+    --grid-color:   038, 084, 124;
+    
+    --text-color:   050, 050, 050;
+    
+    }
+    
+    /* Utility Styles */
+    
+    html {
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+    
+      *, *::before, *::after {
+        box-sizing: inherit;
+      }
+    
+    body {
+        color: rgba(var(--text-color), 1);
+        padding: 2rem;
+    }
+    
+    section {
+        border-bottom: 1px dashed rgba(var(--text-color), 0.25);
+        padding: 2rem;
+        margin: 0.5rem 0;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: rgba(var(--text-color), 1);
+        line-height: 1;
+        margin-bottom: 1.45rem;
+    }
+    
+    p {
+        color: rgba(var(--text-color), 1);
+        line-height: 1.45;
+    }
+    
+    a {
+        color: rgba(var(--flex-color), 1);
+    }
