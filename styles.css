@@ -45,7 +45,6 @@ main {
   grid-column: 1 / 2;
   width: 90%;
   object-fit: scale-down;
-
 }
 
 .main_content p {
@@ -88,6 +87,10 @@ a:active {
       repeat(4, 1fr);
     grid-template-rows:
       repeat(5, 1fr);
+  }
+
+  .main_content p {
+    text-align: center;
   }
 
   aside {
