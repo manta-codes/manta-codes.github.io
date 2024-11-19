@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #125f59;
+  background-color: #196e67;
   display: grid;
   grid-template-columns:
     repeat(4, 1fr);
@@ -15,12 +15,14 @@ body {
 }
 
 .container {
-  background-color: #cee5e9;
+  background-color: #244349;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
+  color: #dbdbdb
+  
 }
 
 header {
@@ -38,10 +40,25 @@ aside {
   grid-column: 1;
 }
 
-
 footer {
   grid-row: 4;
   grid-column: 1 / 5;
+}
+
+a:link {
+  color: #67c4bc;
+}
+
+a:visited {
+  color: #369b92;
+}
+
+a:hover {
+  color: #dbdbdb
+}
+
+a:active {
+  color: #dbdbdb
 }
 
  @media (max-width: 800px) {
