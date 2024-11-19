@@ -18,11 +18,10 @@ body {
   background-color: #244349;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  padding: 5px;
   text-align: center;
   margin: 5px;
-  color: #dbdbdb
-  
+  color: #dbdbdb;
 }
 
 header {
@@ -33,6 +32,26 @@ header {
 main {
   grid-row: 2 / 4;
   grid-column: 2 / 5;
+}
+
+.main_content {
+  display: grid;
+  grid-template-columns: 
+    repeat(4, 1fr);
+    margin: 20px;
+}
+
+.main_content img {
+  grid-column: 1 / 2;
+  width: 90%;
+  object-fit: scale-down;
+
+}
+
+.main_content p {
+  grid-column: 2 / 5;
+  text-align: left;
+  margin-left: 20px
 }
 
 aside {
