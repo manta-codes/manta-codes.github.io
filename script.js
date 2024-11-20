@@ -7,7 +7,7 @@
 // }
 // setInterval(updateDateTime, 1000)
 
-//--- populate facts and prevent repeating facts ---//
+//--- populate facts and replace randomizer with for each to cycle through array ---//
 function displayfact() {
 
     const facts = 
@@ -25,3 +25,8 @@ function displayfact() {
 }
 
 setInterval(displayfact, 5000)
+
+
+
+//myArray.forEach(element => {
+  //  console.log(element);
